@@ -1,0 +1,33 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.CorrelationAttributeEval 
+Search:       weka.attributeSelection.Ranker -T -1.7976931348623157E308 -N 10
+Relation:     3-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.attribute.RenameAttribute-find2305-replaceclass-Rlast-weka.filters.unsupervised.attribute.NumericToNominal-Rlast-weka.filters.MultiFilter-Fweka.filters.unsupervised.instance.Randomize -S 42-Fweka.filters.unsupervised.attribute.RenameAttribute -find 2305 -replace class -R last-Fweka.filters.unsupervised.attribute.NumericToNominal -R last
+Instances:    12660
+Attributes:   2305
+              [list of attributes omitted]
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (nominal): 2305 class):
+	Correlation Ranking Filter
+Ranked attributes:
+ 0.371     1697 1696
+ 0.368     1698 1697
+ 0.363     1649 1648
+ 0.357     1650 1649
+ 0.35      1696 1695
+ 0.348     1699 1698
+ 0.344     1746 1745
+ 0.342     1745 1744
+ 0.342     1714 1713
+ 0.34      1713 1712
+
+Selected attributes: 1697,1698,1649,1650,1696,1699,1746,1745,1714,1713 : 10
+

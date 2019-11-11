@@ -1,0 +1,33 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.CorrelationAttributeEval 
+Search:       weka.attributeSelection.Ranker -T -1.7976931348623157E308 -N 10
+Relation:     0-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.attribute.NumericToBinary-Rlast-weka.filters.unsupervised.attribute.RenameAttribute-find2305-replaceclass-Rlast-weka.filters.MultiFilter-Fweka.filters.unsupervised.instance.Randomize -S 42-Fweka.filters.unsupervised.attribute.NumericToBinary -R last-Fweka.filters.unsupervised.attribute.RenameAttribute -find 2305 -replace class -R last-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.attribute.RenameAttribute-find2305-replaceclass-Rlast-weka.filters.unsupervised.attribute.NumericToNominal-Rlast-weka.filters.MultiFilter-Fweka.filters.unsupervised.instance.Randomize -S 42-Fweka.filters.unsupervised.attribute.RenameAttribute -find 2305 -replace class -R last-Fweka.filters.unsupervised.attribute.NumericToNominal -R last
+Instances:    12660
+Attributes:   2305
+              [list of attributes omitted]
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (nominal): 2305 class):
+	Correlation Ranking Filter
+Ranked attributes:
+ 0.27      1173 1172
+ 0.261     1172 1171
+ 0.256     1469 1468
+ 0.253     1221 1220
+ 0.251     1473 1472
+ 0.247     1222 1221
+ 0.246     1124 1123
+ 0.245     1470 1469
+ 0.245     1420 1419
+ 0.244     1520 1519
+
+Selected attributes: 1173,1172,1469,1221,1473,1222,1124,1470,1420,1520 : 10
+
